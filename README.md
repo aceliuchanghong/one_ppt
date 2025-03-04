@@ -1,13 +1,24 @@
 ## only_one_page_ppt
+
 The AI only focuses on generating a single slide of PPT.
 
 ## install
+
 ```shell
+# 初始化python环境
 uv init
 uv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+# 前端相关
+# Run`npm install` to install dependencies
+# Run`npm run dev` to start the development server
+cd frontend
+npm install
+npm run dev
 ```
 
 ## prompt
+
 ```markdown
 ### **项目概述**
 构建一个文本到视觉内容的平台，用户可以通过输入自然语言描述，自动生成对应的可视化图表，并支持导出为 PNG 或 SVG 格式。

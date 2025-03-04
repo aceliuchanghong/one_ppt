@@ -58,3 +58,6 @@ Trae 常与 Cursor 等 AI 驱动的 IDE 比较，以下是与 Cursor 的详细�
 
 7. 完成结束
 ![](z_using_files/frontend/pics/inter6.png)
+
+8. 聊天修改细节
+![](z_using_files/frontend/pics/inter7.png)

@@ -167,8 +167,33 @@ one_ppt/
 ```
 帮我继续完善前端代码
 
-
 ---
+
+```structure
+one_ppt/
+|
+├── backend/
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    ├── public/
+    │   └── vite.svg
+    └── src/
+        ├── App.vue
+        ├── main.js
+        ├── style.css
+        ├── assets/
+        │   └── vue.svg
+        ├── components/
+        │   ├── ChartPreview.vue
+        │   ├── HelloWorld.vue
+        │   └── TextEditor.vue
+        └── context/
+            └── MermaidContext.js
+```
+怎么指定0.0.0.0和端口,对于命令:`npm run dev`
+
 
 ---
 

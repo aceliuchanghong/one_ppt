@@ -6,20 +6,18 @@ The AI only focuses on generating a single slide of PPT.
 
 ```shell
 # 初始化python环境
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 uv init
 uv venv
 .venv\Scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 uv pip install .
 # 前端相关
-# Run`npm install` to install dependencies
-# Run`npm run dev` to start the development server
 cd frontend
 npm install
 npm run dev
 ```
 
-## prompt
+## design
 
 ```markdown
 ### **项目概述**
@@ -54,8 +52,7 @@ npm run dev
   - 图表生成工具：Mermaid CLI
   - 数据库（可选）：SQLite
 - **前端**：
-  - 框架：React
+  - 框架：Vue3
   - 图表渲染：Mermaid.js
-  - 状态管理：Context API
   - HTTP 请求：Axios
 ```

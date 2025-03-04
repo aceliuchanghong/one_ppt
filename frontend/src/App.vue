@@ -11,7 +11,7 @@ provideMermaidContext();
 <template>
   <div class="app-container">
     <header class="app-header">
-      <h1>文本转图表工具</h1>
+      <h1>一图胜千言</h1>
       <p>输入自然语言描述，自动生成可视化图表</p>
     </header>
     
@@ -21,7 +21,7 @@ provideMermaidContext();
     </main>
     
     <footer class="app-footer">
-      <p>基于 Vue3 和 Mermaid.js 构建</p>
+      <p>All rights reserved. Owned by aceliuchanghong@gmail.com.</p>
     </footer>
   </div>
 </template>

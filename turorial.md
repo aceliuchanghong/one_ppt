@@ -61,3 +61,13 @@ Trae 常与 Cursor 等 AI 驱动的 IDE 比较，以下是与 Cursor 的详细�
 
 8. 聊天修改细节
 ![](z_using_files/frontend/pics/inter7.png)
+
+9. 界面展示
+![](z_using_files/frontend/pics/inter8.png)
+
+### 反思
+
+1. 依赖于别人大模型,对于保密不够
+2. 就此界面而言,美观度不够,还需要修改
+3. 聊天提示词需要比较专业准确才好
+4. 此软件复制文件地址不太方便,烦

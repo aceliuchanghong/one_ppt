@@ -8,7 +8,9 @@ The AI only focuses on generating a single slide of PPT.
 # 初始化python环境
 uv init
 uv venv
+.venv\Scripts\activate
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+uv pip install .
 # 前端相关
 # Run`npm install` to install dependencies
 # Run`npm run dev` to start the development server

@@ -35,9 +35,8 @@
   - 图表生成工具：Mermaid CLI
   - 数据库（可选）：SQLite
 - **前端**：
-  - 框架：React
+  - 框架：Vue3
   - 图表渲染：Mermaid.js
-  - 状态管理：Context API
   - HTTP 请求：Axios
 ```
 帮我仅仅设计前端后端交互的接口格式以及参数描述之类
@@ -111,9 +110,8 @@
 
 #### **3. 技术栈**
 - **前端**：
-  - 框架：React
+  - Vue3
   - 图表渲染：Mermaid.js
-  - 状态管理：Context API
   - HTTP 请求：Axios
 ```
 帮我写一下前端在`frontend`下面
@@ -142,6 +140,7 @@ one_ppt/
   - 支持动态更新图表内容（当用户修改输入时，图表实时刷新）。
 - **文件导出**：
   - 提供按钮，允许用户将生成的图表导出为 PNG 或 SVG 格式。
+
 ```
 ```structure
 one_ppt/
@@ -149,17 +148,24 @@ one_ppt/
 ├── backend/
 └── frontend/
     ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    ├── public/
+    │   └── vite.svg
     └── src/
-        ├── App.jsx
-        ├── main.jsx
+        ├── App.vue
+        ├── main.js
+        ├── style.css
+        ├── assets/
+        │   └── vue.svg
         ├── components/
-        │   ├── ChartPreview.jsx
-        │   ├── ExportButtons.jsx
-        │   └── TextEditor.jsx
+        │   ├── ChartPreview.vue
+        │   ├── HelloWorld.vue
+        │   └── TextEditor.vue
         └── context/
-            └── MermaidContext.jsx
+            └── MermaidContext.js
 ```
-`cd frontend`之后`npm run dev`,打开前端页面是空的
+帮我继续完善前端代码
 
 
 ---

@@ -2,13 +2,15 @@
 
 The AI only focuses on generating a single slide of PPT.
 
+![](z_using_files/frontend/pics/inter16.png)
+
 ## install
 
 ```shell
 # 初始化python环境
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 uv init
 uv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .venv\Scripts\activate
 uv pip install .
 # 前端相关

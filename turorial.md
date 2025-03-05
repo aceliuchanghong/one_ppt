@@ -95,3 +95,5 @@ Trae 常与 Cursor 等 AI 驱动的 IDE 比较，以下是与 Cursor 的详细�
 ![](z_using_files/frontend/pics/inter15.png)
 
 ![](z_using_files/frontend/pics/inter16.png)
+
+现在好看多了,hh,准备开发后端

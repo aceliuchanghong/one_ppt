@@ -12,11 +12,12 @@ exclude_dirs_set = {
     "uv.lock",
     "b_prompt.md",
     "f_prompt.md",
-    'package-lock.json',
-    'node_modules',
-    'frontend/package-lock.json',
-    'z_using_files',
-    'turorial.md'
+    "package-lock.json",
+    "node_modules",
+    "frontend",
+    "z_using_files",
+    "turorial.md",
+    "test_llm.py",
 }
 print_tree(directory=path, exclude_dirs=exclude_dirs_set)
 # uv run z_utils/print_structure.py

@@ -71,3 +71,27 @@ Trae 常与 Cursor 等 AI 驱动的 IDE 比较，以下是与 Cursor 的详细�
 2. 就此界面而言,美观度不够,还需要修改
 3. 聊天提示词需要比较专业准确才好
 4. 此软件复制文件地址不太方便,烦
+
+### 实操演示-第2天优化
+
+1. 开始聊天-界面优化
+
+![](z_using_files/frontend/pics/inter14.png)
+
+![](z_using_files/frontend/pics/inter9.png)
+
+2. 界面展示
+
+![](z_using_files/frontend/pics/inter10.png)
+
+![](z_using_files/frontend/pics/inter11.png)
+
+3. 继续优化
+
+![](z_using_files/frontend/pics/inter12.png)
+
+![](z_using_files/frontend/pics/inter13.png)
+
+![](z_using_files/frontend/pics/inter15.png)
+
+![](z_using_files/frontend/pics/inter16.png)

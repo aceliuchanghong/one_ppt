@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "easy-media-utils>=0.1.5",
+    "flask>=3.1.0",
     "litserve>=0.2.6",
     "openai>=1.65.2",
     "python-dotenv>=1.0.1",
